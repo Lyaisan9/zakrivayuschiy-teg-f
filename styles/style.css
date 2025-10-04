@@ -198,6 +198,7 @@
   flex-shrink: 0;
   max-width: 100%;
 }
+
 .dialog__text {
   font-family: var(--accent-font-family);
   font-size: 14px;
@@ -262,12 +263,6 @@
 
 .move_button:hover::before {
   transform: scaleX(1);
-}
-
-.button__text {
-  color: var(--fix-color, white);
-  z-index: 2;
-  mix-blend-mode: difference;
 }
 
 .heart {
